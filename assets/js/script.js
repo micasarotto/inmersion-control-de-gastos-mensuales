@@ -31,9 +31,9 @@ function actualizarListaGastos() {
 
         htmlLista += `<li>
                         ${elemento} - ${descripcion} - USD ${valorGasto.toFixed(2)}
-                        <button onclick="eliminarGasto(${posicion});">Eliminar</button>
                         <button onclick="modificarGasto(${posicion});">Modificar</button>
-                      </li>`;
+                        <button onclick="eliminarGasto(${posicion});">Eliminar</button>
+                     </li>`;
 
         totalGastos += valorGasto;
     });
